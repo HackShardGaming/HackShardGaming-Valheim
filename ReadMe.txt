@@ -5,6 +5,10 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+
+HsG V0.3.2	Date: 2/27/2021		Valheim Version: 0.146.11@0.9
+>> 	Once again: Updated all base plugins...
+
 HsG V0.3	Date: 2/26/2021		Valheim Version: 0.146.11@0.9
 >>	Updated all base plugins.
 
