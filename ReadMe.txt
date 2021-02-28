@@ -5,6 +5,10 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+HsG V0.3.4	Date: 2/27/2021		Valheim Version: 0.146.11@0.9
+>>	Patched a bug involving BetterDiscordPresence. It's dlls needed to be in a BetterDiscordPresence folder inside the plugins folder.
+
+
 HsG V0.3.3	Date: 2/27/2021		Valheim Version: 0.146.11@0.9
 >> 	Plugin Added: Server Side Maps!
 
