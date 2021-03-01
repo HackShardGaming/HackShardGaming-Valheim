@@ -5,6 +5,13 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+HsG V0.4	Date: 2/28/2021		Valheim Version: 0.146.11@0.9
+>>	Added multiple new plugins
+>>	Any Portal (Allows us to select where to port us to by selecting it from a list of availble portals.)
+>>	BetterUI (Adds a new UI element to the game. including Health Amount on mobs and Stars instead of numbers for equip levels.)
+>>	HostName Connect (Not only will this allow us to connect to our server using its hostname but it will save the previous servers.)
+>>	Quick Connect (We made a list of available servers which ofc are ours!)
+
 HsG V0.3.4	Date: 2/27/2021		Valheim Version: 0.146.11@0.9
 >>	Patched a bug involving BetterDiscordPresence. It's dlls needed to be in a BetterDiscordPresence folder inside the plugins folder.
 
