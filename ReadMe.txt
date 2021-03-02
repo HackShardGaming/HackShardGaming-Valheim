@@ -5,6 +5,10 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+HsG V0.5	Date: 3/2/2021		Valheim Version: 0.146.13@0.9
+>> 	Added Plugin: HoldAttack (Allows you to just hold left click and it will keep attacking/digging/mining for you)
+
+
 HsG V0.4	Date: 2/28/2021		Valheim Version: 0.146.11@0.9
 >>	Added multiple new plugins
 >>	Any Portal (Allows us to select where to port us to by selecting it from a list of availble portals.)
