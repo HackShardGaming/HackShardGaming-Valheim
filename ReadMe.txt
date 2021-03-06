@@ -5,6 +5,15 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+
+HsG V0.6	Date: 3/6/2021		Valheim Version: 0.147.3@0.9.3
+>>	***WARNING** We have updated BepInEx to the latest version and replaced the corelibs of the game with the most up to date version.  I recommend REMOVING valheim from steam. CLEARING the entire valheim folder
+>>		and reinstall the game. A.K.A. TOTAL REINSTALL OF VALHEIM RECOMMENDED.
+>>	Removed Plugin: EquipmentAndQuickSlots (It has been replaced by Valheim Plus's latest update.
+>>	Updated Plugin: ALL AVAILABLE PLUGINS
+>>	Added Plugin: Floating Items
+>>	Installed Plugin: SlimVML
+
 HsG V0.5	Date: 3/2/2021		Valheim Version: 0.146.13@0.9
 >> 	Added Plugin: HoldAttack (Allows you to just hold left click and it will keep attacking/digging/mining for you)
 
