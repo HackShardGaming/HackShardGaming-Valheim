@@ -5,6 +5,10 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+HsG V0.6.5	Date: 3/6/2021		Valheim Version: 0.147.3@0.9.4
+>>	Updated Plugin: Valheim Plus
+>>	Updated Plugin: AnyPortal
+>>	Updated Plugin: SimpleRecycling
 
 HsG V0.6	Date: 3/6/2021		Valheim Version: 0.147.3@0.9.3
 >>	***WARNING** We have updated BepInEx to the latest version and replaced the corelibs of the game with the most up to date version.  I recommend REMOVING valheim from steam. CLEARING the entire valheim folder
