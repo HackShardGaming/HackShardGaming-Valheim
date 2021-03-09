@@ -5,6 +5,13 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+HsG V0.7	Date: 3/9/2021		Valheim Version: 0.147.3@0.9.4
+>>	Updated Plugin: ServerSideMap
+>>	Updated Plugin: HoldAttack
+>>	Updated Plugin: Quick Connect
+>>	Updated Plugin: Simple Recycling
+>>	Updated a few Config files. Replacing some variables that where missing.
+
 HsG V0.6.5	Date: 3/6/2021		Valheim Version: 0.147.3@0.9.4
 >>	Updated Plugin: Valheim Plus
 >>	Updated Plugin: AnyPortal
