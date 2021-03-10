@@ -4,6 +4,10 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 
 Patch Notes
+HsG V0.7.5	Date: 3/9/2021		Valheim Version: 0.147.3@0.9.4
+>> 	Added Plugin: ExtendedItemFramework
+>>	Added Plugin: EpicLoot
+>>	Deleted Plugin: Better UI (PLEASE REMOVE THIS PLUGIN FROM YOUR PLUGINS FOLDER AS IT BREAKS EPICLOOT!
 
 HsG V0.7	Date: 3/9/2021		Valheim Version: 0.147.3@0.9.4
 >>	Updated Plugin: ServerSideMap
