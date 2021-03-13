@@ -5,6 +5,11 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+HsG V0.8.1	Date: 3/13/2021		Valheim Version: 0.147.3@0.9.5
+>>	Updated Plugin: Valheim Plus
+>>	Updated Plugin: EpicLoot
+>>	Removed Plugin: ServerSideMap (Now Depreciated with Valheim Plus)
+
 HsG V0.8	Date: 3/11/2021		Valheim Version: 0.147.3@0.9.4
 >>	Added Plugin: Equipment and QUick Slots
 >>	Added Plugin: Faster Teleportation
