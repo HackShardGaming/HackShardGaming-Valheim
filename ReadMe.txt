@@ -5,6 +5,16 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+HsG V0.9.0.0	Date: 3/16/2021		Valheim Version: 0.147.3 (VOnline v0.1)@0.9.5.5/WeylandMod-1.10
+>>	Installed Plugin: Weyland Mod Core
+>>	Installed Plugin: Weyland Mod Item Radar
+>>	Installed Plugin: Weyland Mod Shared Map
+>>	Installed Plugin: VChat
+>>	Updated Plugin: Epic Loot
+>>	This is another Major Update release.  No plugins are currently being removed so you should not need to remove any plugins.  You will not be able to login until you update to this version.
+		Also please note: Valheim Online plugin has been discontinued by the developer.  We will attempt a decompile and do some changes ourself very shortly.
+
+
 HsG V0.8.1.5	Date: 3/15/2021		Valheim Version: 0.147.3 (VOnline v0.1)@0.9.5
 >>	Installed Plugin: Build Camera
 >>	Installed Plugin: Interactive Sign
