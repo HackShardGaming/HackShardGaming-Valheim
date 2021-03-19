@@ -13,6 +13,7 @@ HsG V0.9.0.2	Date: 3/18/2021		Valheim Version: 0.147.3 (VOnline v0.1)@0.9.5.5
 >>	Did some cleaning up of old files and folders.
 >>	Resolved a bug with ValheimPlus's Version Number. Also manually updated to there latest github release.
 >>	Complete overhall of plugins folder.
+>>	BUG FIX: Due to 2 plugins using the same button. Build Cameras hotkey has been changed to N
 
 HsG V0.9.0.1	Date: 3/18/2021		Valheim Version: 0.147.3(VOnline v0.1)@0.9.5.5/WeylandMod-1.10
 >>	Updated Plugin: Epic Loot
