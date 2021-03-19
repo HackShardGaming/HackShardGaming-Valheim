@@ -1,2 +1,7 @@
 # ignore all zip files
 *.zip
+*.exe
+Unity*
+steam_appid*
+/valheim_Data
+/MonoBleedingEdge

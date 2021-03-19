@@ -1,0 +1,804 @@
+﻿[Message:   BepInEx] BepInEx 5.4.8.0 - valheim
+[Info   :   BepInEx] Running under Unity v2019.4.20.7197120
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [SlimVML.Loader 1.1.0.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   SlimVML] Loading DLLs from C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\SlimVML
+[Info   :   SlimVML] Invoking static void SlimAssist.SlimAssist::Main(string[] args)
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 22 plugins to load
+[Info   :   BepInEx] Loading [Nexus Update 1.1.1]
+[Info   :   BepInEx] Loading [VOnline 0.1]
+[Info   :   Console] VONLINE: Loaded safe zone DefaultSpawnSafeZone (0, 0) radius 50
+[Info   :   BepInEx] Loading [Pin Filters 1.2.0]
+[Info   : Unity Log] Configuring Pin Filter global toggle to key F7.
+[Info   :   BepInEx] Loading [FloatingItems 1.0.0]
+[Info   :   BepInEx] Loading [SimpleRecycling 0.0.13]
+[Info   :   BepInEx] Loading [Faster Teleportation 0.3.1.0]
+[Info   :   BepInEx] Loading [Use Equipment in Water 0.2.2.0]
+[Info   :   BepInEx] Loading [QuickConnect 1.4.0]
+[Info   :   BepInEx] Loading [Better Discord Presence 1.3.1]
+[Info   : Unity Log] [BetterDiscordPresence] Getting Ready
+[Info   : Unity Log] [BetterDiscordPresence] Getting ready to patch!
+[Info   : Unity Log] [BetterDiscordPresence] Patch complete!
+[Info   : Unity Log] [BetterDiscordPresence] DiscordRPC Init
+[Info   :   BepInEx] Loading [Valheim Plus 0.9.5.5]
+[Info   :Valheim Plus] Trying to load the configuration file
+[Info   : Unity Log] Loading config section AdvancedBuildingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section AdvancedEditingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Beehive
+[Info   : Unity Log]  Loading key honeyProductionSpeed
+[Info   : Unity Log]  Loading key maximumHoneyPerBeehive
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log]  Loading key showDuration
+[Info   : Unity Log] Loading config section Building
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Deconstruct
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Inventory
+[Info   : Unity Log]  Loading key inventoryFillTopToBottom
+[Info   : Unity Log]  Loading key playerInventoryRows
+[Info   : Unity Log]  Loading key woodChestColumns
+[Info   : Unity Log]  Loading key woodChestRows
+[Info   : Unity Log]  Loading key personalChestColumns
+[Info   : Unity Log]  Loading key personalChestRows
+[Info   : Unity Log]  Loading key ironChestColumns
+[Info   : Unity Log]  Loading key ironChestRows
+[Info   : Unity Log]  Loading key cartInventoryColumns
+[Info   : Unity Log]  Loading key cartInventoryRows
+[Info   : Unity Log]  Loading key karveInventoryColumns
+[Info   : Unity Log]  Loading key karveInventoryRows
+[Info   : Unity Log]  Loading key longboatInventoryColumns
+[Info   : Unity Log]  Loading key longboatInventoryRows
+[Info   : Unity Log] Loading config section Items
+[Info   : Unity Log]  Loading key noTeleportPrevention
+[Info   : Unity Log]  Loading key baseItemWeightReduction
+[Info   : Unity Log]  Loading key itemStackMultiplier
+[Info   : Unity Log]  Loading key droppedItemOnGroundDurationInSeconds
+[Info   : Unity Log] Loading config section Fermenter
+[Info   : Unity Log]  Loading key fermenterDuration
+[Info   : Unity Log]  Loading key fermenterItemsProduced
+[Info   : Unity Log]  Loading key showDuration
+[Info   : Unity Log] Loading config section FireSource
+[Info   : Unity Log]  Loading key onlyTorches
+[Info   : Unity Log] Loading config section Food
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Smelter
+[Info   : Unity Log]  Loading key maximumOre
+[Info   : Unity Log]  Loading key maximumCoal
+[Info   : Unity Log]  Loading key coalUsedPerProduct
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Furnace
+[Info   : Unity Log]  Loading key maximumOre
+[Info   : Unity Log]  Loading key maximumCoal
+[Info   : Unity Log]  Loading key coalUsedPerProduct
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Hotkeys
+[Info   : Unity Log]  Loading key rollForwards
+[Info   : Unity Log]  Loading key rollBackwards
+[Info   : Unity Log] Loading config section Kiln
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key maximumWood
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Map
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Player
+[Info   : Unity Log]  Loading key baseMaximumWeight
+[Info   : Unity Log]  Loading key baseMegingjordBuff
+[Info   : Unity Log]  Loading key baseAutoPickUpRange
+[Info   : Unity Log]  Loading key disableCameraShake
+[Info   : Unity Log]  Loading key baseUnarmedDamage
+[Info   : Unity Log]  Loading key cropNotifier
+[Info   : Unity Log]  Loading key restSecondsPerComfortLevel
+[Info   : Unity Log]  Loading key deathPenaltyMultiplier
+[Info   : Unity Log]  Loading key autoRepair
+[Info   : Unity Log]  Loading key guardianBuffDuration
+[Info   : Unity Log]  Loading key guardianBuffCooldown
+[Info   : Unity Log] Loading config section Server
+[Info   : Unity Log]  Loading key maxPlayers
+[Info   : Unity Log]  Loading key disableServerPassword
+[Info   : Unity Log]  Loading key enforceMod
+[Info   : Unity Log]  Loading key serverSyncsConfig
+[Info   : Unity Log]  Loading key dataRate
+[Info   : Unity Log] Loading config section Stamina
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StaminaUsage
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Workbench
+[Info   : Unity Log]  Loading key workbenchRange
+[Info   : Unity Log]  Loading key workbenchAttachmentRange
+[Info   : Unity Log]  Loading key disableRoofCheck
+[Info   : Unity Log] Loading config section Time
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Ward
+[Info   : Unity Log]  Loading key wardRange
+[Info   : Unity Log] Loading config section StructuralIntegrity
+[Info   : Unity Log]  Loading key wood
+[Info   : Unity Log]  Loading key stone
+[Info   : Unity Log]  Loading key iron
+[Info   : Unity Log]  Loading key hardWood
+[Info   : Unity Log]  Loading key disableStructuralIntegrity
+[Info   : Unity Log]  Loading key disableDamageToPlayerStructures
+[Info   : Unity Log]  Loading key disableDamageToPlayerBoats
+[Info   : Unity Log] Loading config section Hud
+[Info   : Unity Log]  Loading key showRequiredItems
+[Info   : Unity Log]  Loading key experienceGainedNotifications
+[Info   : Unity Log]  Key chatMessageDistance not defined, using default value
+[Info   : Unity Log]  Loading key displayStaminaValue
+[Info   : Unity Log]  Loading key removeDamageFlash
+[Info   : Unity Log] Loading config section Experience
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Camera
+[Info   : Unity Log]  Loading key cameraMaximumZoomDistance
+[Info   : Unity Log]  Loading key cameraBoatMaximumZoomDistance
+[Info   : Unity Log]  Loading key cameraFOV
+[Info   : Unity Log] Loading config section Game
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Wagon
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Gathering
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Durability
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Armor
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FreePlacementRotation
+[Info   : Unity Log]  Loading key rotateY
+[Info   : Unity Log]  Loading key rotateX
+[Info   : Unity Log]  Loading key rotateZ
+[Info   : Unity Log]  Loading key copyRotationParallel
+[Info   : Unity Log]  Loading key copyRotationPerpendicular
+[Info   : Unity Log] Loading config section Shields
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FirstPerson
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GridAlignment
+[Info   : Unity Log]  Section not enabled
+[Info   :Valheim Plus] Configuration file loaded succesfully.
+[Info   :Valheim Plus] ValheimPlus [0.9.5.5] is up to date.
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 1.0.0]
+[Info   :   BepInEx] Loading [Build Camera 1.4]
+[Info   :   BepInEx] Loading [VChat 1.2.0]
+[Info   : Unity Log] [VChat] Initialised VChat (1.2.0)
+[Warning: Unity Log] [VChat] Version 1.2.1 of VChat has been released, please see https://github.com/ItsKaa/VChat
+[Info   :   BepInEx] Loading [AnyPortal 1.0.4]
+[Info   : Unity Log] AnyPortal loaded succesfully.
+[Info   :   BepInEx] Loading [Extended Item Data Framework 1.0.0]
+[Info   :   BepInEx] Loading [Epic Loot 0.5.14]
+[Info   : Unity Log] Added MagicItemEffect: DvergerCirclet
+[Info   : Unity Log] Added MagicItemEffect: Megingjord
+[Info   : Unity Log] Added MagicItemEffect: Wishbone
+[Info   : Unity Log] Added MagicItemEffect: ModifyDamage
+[Info   : Unity Log] Added MagicItemEffect: ModifyPhysicalDamage
+[Info   : Unity Log] Added MagicItemEffect: ModifyElementalDamage
+[Info   : Unity Log] Added MagicItemEffect: ModifyDurability
+[Info   : Unity Log] Added MagicItemEffect: ReduceWeight
+[Info   : Unity Log] Added MagicItemEffect: RemoveSpeedPenalty
+[Info   : Unity Log] Added MagicItemEffect: ModifyBlockPower
+[Info   : Unity Log] Added MagicItemEffect: ModifyParry
+[Info   : Unity Log] Added MagicItemEffect: ModifyArmor
+[Info   : Unity Log] Added MagicItemEffect: ModifyBackstab
+[Info   : Unity Log] Added MagicItemEffect: IncreaseHealth
+[Info   : Unity Log] Added MagicItemEffect: IncreaseStamina
+[Info   : Unity Log] Added MagicItemEffect: ModifyHealthRegen
+[Info   : Unity Log] Added MagicItemEffect: ModifyStaminaRegen
+[Info   : Unity Log] Added MagicItemEffect: AddBluntDamage
+[Info   : Unity Log] Added MagicItemEffect: AddSlashingDamage
+[Info   : Unity Log] Added MagicItemEffect: AddPiercingDamage
+[Info   : Unity Log] Added MagicItemEffect: AddFireDamage
+[Info   : Unity Log] Added MagicItemEffect: AddFrostDamage
+[Info   : Unity Log] Added MagicItemEffect: AddLightningDamage
+[Info   : Unity Log] Added MagicItemEffect: AddPoisonDamage
+[Info   : Unity Log] Added MagicItemEffect: AddSpiritDamage
+[Info   : Unity Log] Added MagicItemEffect: AddFireResistance
+[Info   : Unity Log] Added MagicItemEffect: AddFrostResistance
+[Info   : Unity Log] Added MagicItemEffect: AddLightningResistance
+[Info   : Unity Log] Added MagicItemEffect: AddPoisonResistance
+[Info   : Unity Log] Added MagicItemEffect: AddSpiritResistance
+[Info   : Unity Log] Added MagicItemEffect: ModifyMovementSpeed
+[Info   : Unity Log] Added MagicItemEffect: ModifySprintStaminaUse
+[Info   : Unity Log] Added MagicItemEffect: ModifyJumpStaminaUse
+[Info   : Unity Log] Added MagicItemEffect: ModifyAttackStaminaUse
+[Info   : Unity Log] Added MagicItemEffect: ModifyBlockStaminaUse
+[Info   : Unity Log] Added MagicItemEffect: Indestructible
+[Info   : Unity Log] Added MagicItemEffect: Weightless
+[Info   : Unity Log] Added MagicItemEffect: AddCarryWeight
+[Info   : Unity Log] Added ItemSet: Tier0Weapons
+[Info   : Unity Log] Added ItemSet: Tier0Tools
+[Info   : Unity Log] Added ItemSet: Tier0Armor
+[Info   : Unity Log] Added ItemSet: Tier0Shields
+[Info   : Unity Log] Added ItemSet: Tier0Everything
+[Info   : Unity Log] Added ItemSet: Tier1Weapons
+[Info   : Unity Log] Added ItemSet: Tier1Armor
+[Info   : Unity Log] Added ItemSet: Tier1Tools
+[Info   : Unity Log] Added ItemSet: Tier1Everything
+[Info   : Unity Log] Added ItemSet: TrollArmor
+[Info   : Unity Log] Added ItemSet: Tier2Weapons
+[Info   : Unity Log] Added ItemSet: Tier2Armor
+[Info   : Unity Log] Added ItemSet: Tier2Shields
+[Info   : Unity Log] Added ItemSet: Tier2Tools
+[Info   : Unity Log] Added ItemSet: Tier2Everything
+[Info   : Unity Log] Added ItemSet: Tier3Weapons
+[Info   : Unity Log] Added ItemSet: Tier3Armor
+[Info   : Unity Log] Added ItemSet: Tier3Shields
+[Info   : Unity Log] Added ItemSet: Tier3Tools
+[Info   : Unity Log] Added ItemSet: Tier3Everything
+[Info   : Unity Log] Added ItemSet: Tier4Weapons
+[Info   : Unity Log] Added ItemSet: Tier4Armor
+[Info   : Unity Log] Added ItemSet: Tier4Shields
+[Info   : Unity Log] Added ItemSet: Tier4Everything
+[Info   : Unity Log] Added ItemSet: Tier5Weapons
+[Info   : Unity Log] Added ItemSet: Tier5Armor
+[Info   : Unity Log] Added ItemSet: Tier5Shields
+[Info   : Unity Log] Added ItemSet: Tier5Everything
+[Info   : Unity Log] Added LootTable: Greyling
+[Info   : Unity Log] Added LootTable: Greydwarf
+[Info   : Unity Log] Added LootTable: Greydwarf_Elite
+[Info   : Unity Log] Added LootTable: Greydwarf_Shaman
+[Info   : Unity Log] Added LootTable: Troll
+[Info   : Unity Log] Added LootTable: Skeleton
+[Info   : Unity Log] Added LootTable: Ghost
+[Info   : Unity Log] Added LootTable: Blob
+[Info   : Unity Log] Added LootTable: BlobElite
+[Info   : Unity Log] Added LootTable: Draugr
+[Info   : Unity Log] Added LootTable: Draugr_Elite
+[Info   : Unity Log] Added LootTable: Leech
+[Info   : Unity Log] Added LootTable: Surtling
+[Info   : Unity Log] Added LootTable: Wraith
+[Info   : Unity Log] Added LootTable: Wolf
+[Info   : Unity Log] Added LootTable: Hatchling
+[Info   : Unity Log] Added LootTable: StoneGolem
+[Info   : Unity Log] Added LootTable: Fenring
+[Info   : Unity Log] Added LootTable: Deathsquito
+[Info   : Unity Log] Added LootTable: Lox
+[Info   : Unity Log] Added LootTable: Goblin
+[Info   : Unity Log] Added LootTable: GoblinBrute
+[Info   : Unity Log] Added LootTable: GoblinShaman
+[Info   : Unity Log] Added LootTable: Serpent
+[Info   : Unity Log] Added LootTable: Eikthyr
+[Info   : Unity Log] Added LootTable: gd_king
+[Info   : Unity Log] Added LootTable: Bonemass
+[Info   : Unity Log] Added LootTable: Dragon
+[Info   : Unity Log] Added LootTable: GoblinKing
+[Info   : Unity Log] Added LootTable: TreasureChest_meadows
+[Info   : Unity Log] Added LootTable: TreasureChest_blackforest
+[Info   : Unity Log] Added LootTable: TreasureChest_forestcrypt
+[Info   : Unity Log] Added LootTable: TreasureChest_fCrypt
+[Info   : Unity Log] Added LootTable: TreasureChest_trollcave
+[Info   : Unity Log] Added LootTable: shipwreck_karve_chest
+[Info   : Unity Log] Added LootTable: TreasureChest_meadows_buried
+[Info   : Unity Log] Added LootTable: TreasureChest_sunkencrypt
+[Info   : Unity Log] Added LootTable: TreasureChest_swamp
+[Info   : Unity Log] Added LootTable: TreasureChest_mountains
+[Info   : Unity Log] Added LootTable: TreasureChest_plains_stone
+[Info   : Unity Log] Added LootTable: TreasureChest_heath
+[Info   :   BepInEx] Loading [ItemSigns 2.0.0]
+[Info   :   BepInEx] Loading [Network Optimizer 1.0.1]
+[Info   :Network Optimizer]  Basic Valheim Network Optimizer Loaded Successfully
+[Info   :   BepInEx] Loading [Hold Attack 0.4.1]
+[Info   :   BepInEx] Loading [WeylandMod.Core 1.1.0]
+[Info   :WeylandMod.Core] WeylandMod.Core Location=C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins\WeylandMod\WeylandMod.Core.dll
+[Info   :   BepInEx] Loading [WeylandMod.ItemRadar 1.0.0]
+[Info   :WeylandMod.ItemRadar] WeylandMod.ItemRadar Location=C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins\WeylandMod\WeylandMod.ItemRadar.dll
+[Info   :WeylandMod.Core] RegisterFeature Name=ItemRadar
+[Info   :   BepInEx] Loading [WeylandMod.SharedMap 1.0.0]
+[Info   :WeylandMod.SharedMap] WeylandMod.SharedMap Location=C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins\WeylandMod\WeylandMod.SharedMap.dll
+[Info   :WeylandMod.Core] RegisterFeature Name=SharedMap
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] NexusUpdate Nexus Update 102 current version: 1.1.1
+[Info   :Faster Teleportation] Patched Teleport Timer
+[Info   : Unity Log] 03/19/2021 00:11:16: Starting to load scene:start
+
+[Info   : Unity Log] [BetterDiscordPresence] Updating Presence!
+[Info   : Unity Log] NexusUpdate remote version: 1.1.1.
+[Info   : Unity Log] NexusUpdate SimpleRecycling 205 current version: 0.0.13
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 03/19/2021 00:11:23: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+
+[Info   : Unity Log] 03/19/2021 00:11:23: Using mountain distance: 1000
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3 (VOnline v0.1)@0.9.5.5
+[Info   : Unity Log] 03/19/2021 00:11:23: Render threading mode:MultiThreaded
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3 (VOnline v0.1)@0.9.5.5
+[Info   : Unity Log] 03/19/2021 00:11:23: Using steam_appid.txt
+
+[Info   : Unity Log] 03/19/2021 00:11:23: Using steam APPID:892970
+
+[Info   : Unity Log] 03/19/2021 00:11:23: Authentication:k_ESteamNetworkingAvailability_Attempting
+
+[Info   : Unity Log] 03/19/2021 00:11:23: Steam initialized, persona:[HsG] TheGreatMax
+
+[Warning: Unity Log] 03/19/2021 00:11:23: Missing audio clip in music respawn
+
+[Info   : Unity Log] 03/19/2021 00:11:23: Checking for installed DLCs
+
+[Info   : Unity Log] 03/19/2021 00:11:23: DLC:beta installed:False
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3 (VOnline v0.1)@0.9.5.5
+[Info   : Unity Log] 03/19/2021 00:11:24: Loaded localization English
+
+[Info   : Unity Log] 03/19/2021 00:11:24: Loaded localization English
+
+[Info   :QuickConnect] Loaded 2 server entries
+[Info   : Unity Log] 03/19/2021 00:11:24: ARG 0 C:\Program Files (x86)\Steam\steamapps\common\Valheim\valheim.exe
+
+[Info   : Unity Log] NexusUpdate remote version: 0.0.13.
+[Info   : Unity Log] NexusUpdate Use Equipment in Water 121 current version: 0.2.2.0
+[Info   : Unity Log] NexusUpdate remote version: 0.2.2.
+[Info   : Unity Log] NexusUpdate QuickConnect 193 current version: 1.4.0
+[Info   : Unity Log] NexusUpdate remote version: 1.4.0.
+[Info   : Unity Log] NexusUpdate Better Discord Presence 132 current version: 1.3.1
+[Info   : Unity Log] 03/19/2021 00:11:27: UI Group status changed Menu = True
+
+[Info   : Unity Log] NexusUpdate remote version: 1.3.1.
+[Info   : Unity Log] NexusUpdate Valheim Plus 4 current version: 0.9.5.5
+[Error  : Unity Log] ArgumentException: Version string portion was too short or too long.
+Stack trace:
+System.Version+VersionResult.SetFailure (System.Version+ParseFailureKind failure, System.String argument) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Version+VersionResult.SetFailure (System.Version+ParseFailureKind failure) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Version.TryParseVersion (System.String version, System.Version+VersionResult& result) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Version.Parse (System.String input) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Version..ctor (System.String version) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+NexusUpdate.BepInExPlugin+<CheckPlugins>d__45.MoveNext () (at <49efb79aee3f4c13935225d802f65d36>:0)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <a7cda2926b0b4647a1bee2796aea2afe>:0)
+
+[Info   : Unity Log] 03/19/2021 00:11:33: connect to ip:199.217.112.91 port:2456
+
+[Info   : Unity Log] 03/19/2021 00:11:33: show character selection
+
+[Info   : Unity Log] 03/19/2021 00:11:34: OnCharacterStart
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3 (VOnline v0.1)@0.9.5.5
+[Info   : Unity Log] 03/19/2021 00:11:36: Loading player profile thegreatmax
+
+[Info   : Unity Log] 03/19/2021 00:11:36: Zonesystem Awake 338
+
+[Info   : Unity Log] 03/19/2021 00:11:36: DungeonDB Awake 338
+
+[Info   : Unity Log] [BetterDiscordPresence] Server joined, updating server state.
+[Info   : Unity Log] 03/19/2021 00:11:36: Steam initialized, persona:[HsG] TheGreatMax
+
+[Info   : Unity Log] [VChat] Registering custom routed messages for global chat.
+[Info   : Unity Log] [VChat] Registering custom routed messages for greetings.
+[Info   : Unity Log] 03/19/2021 00:11:36: Audioman already exist, destroying self
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3 (VOnline v0.1)@0.9.5.5
+[Info   : Unity Log] 03/19/2021 00:11:36: Checking for installed DLCs
+
+[Info   : Unity Log] 03/19/2021 00:11:36: DLC:beta installed:False
+
+[Info   : Unity Log] 03/19/2021 00:11:38: Zonesystem Start 338
+
+[Info   : Unity Log] 03/19/2021 00:11:39: DungeonDB Start 338
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Connecting to server 199.217.112.91:2456
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Starting to connect to 199.217.112.91:2456
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+
+[Info   : Unity Log] 03/19/2021 00:11:39: New connection
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Got status changed msg k_ESteamNetworkingConnectionState_Connected
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Connected
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Got connection SteamID 90144204507225098
+
+[Info   :QuickConnect] Server didn't want password?
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3 (VOnline v0.1)@0.9.5.5
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3 (VOnline v0.1)@0.9.5.5
+[Info   : Unity Log] 03/19/2021 00:11:39: VERSION check their:0.147.3 (VOnline v0.1)@0.9.5.5/WeylandMod-1.1.0  mine:0.147.3 (VOnline v0.1)@0.9.5.5/WeylandMod-1.1.0
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3 (VOnline v0.1)@0.9.5.5
+[Info   : Unity Log] 03/19/2021 00:11:39: Initializing world generator seed:aLAyhfbjgF ( 1607335594 )   menu:False  worldgen version:1
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Using mountain distance: 1000
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Found 462 mountain points
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Remaining mountains:66
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Calc time 15.7525 ms
+
+[Info   : Unity Log] 03/19/2021 00:11:39: Found 8418 lake points
+
+[Info   : Unity Log] 03/19/2021 00:11:41: Remaining lakes:112
+
+[Info   : Unity Log] 03/19/2021 00:11:41: Calc time 1823.7215 ms
+
+[Info   : Unity Log] 03/19/2021 00:11:41: Rivers:145
+
+[Info   : Unity Log] 03/19/2021 00:11:41: River buckets 14904
+
+[Info   : Unity Log] 03/19/2021 00:11:41: River render time 191.1791 ms
+
+[Info   : Unity Log] 03/19/2021 00:11:41: River Calc time 203.9307 ms
+
+[Info   : Unity Log] 03/19/2021 00:11:42: River buckets 23406
+
+[Info   : Unity Log] 03/19/2021 00:11:42: River render time 345.8482 ms
+
+[Info   : Unity Log] 03/19/2021 00:11:42: Placed 1842 streams
+
+[Info   : Unity Log] 03/19/2021 00:11:42: Stream Calc time 762.2458 ms
+
+[Info   : Unity Log] 03/19/2021 00:11:42: -------------------- SENDING VPLUGCONFIGSYNC REQUEST
+
+[Info   :   Console] VONLINE: S2C ServerVaultData
+[Info   :   Console] VONLINE: S2C SafeZones
+[Info   : Unity Log] 03/19/2021 00:11:42: client got keys 5
+
+[Info   : Unity Log] 03/19/2021 00:11:42: client got location icons
+
+[Info   : Unity Log] 03/19/2021 00:11:42: Icons:2
+
+[Info   : Unity Log] [VChat] Received a greeting from the server (-434388651) that's running on VChat 1.2.0.
+[Info   :   Console] VONLINE: S2C ServerVaultUpdate
+[Info   :   Console] VONLINE: No local player yet: skipping.
+[Info   : Unity Log] 03/19/2021 00:11:42: Session auth respons callback
+
+[Info   : Unity Log] 03/19/2021 00:11:50: Starting respawn
+
+[Info   :   Console] VONLINE: Loading pending character data.
+[Info   : Unity Log] Loading config section AdvancedBuildingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section AdvancedEditingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Beehive
+[Info   : Unity Log]  Loading key honeyProductionSpeed
+[Info   : Unity Log]  Loading key maximumHoneyPerBeehive
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log]  Loading key showDuration
+[Info   : Unity Log] Loading config section Building
+[Info   : Unity Log]  Loading key noInvalidPlacementRestriction
+[Info   : Unity Log]  Loading key noWeatherDamage
+[Info   : Unity Log]  Loading key maximumPlacementDistance
+[Info   : Unity Log]  Loading key pieceComfortRadius
+[Info   : Unity Log]  Loading key alwaysDropResources
+[Info   : Unity Log]  Loading key alwaysDropExcludedResources
+[Info   : Unity Log]  Loading key enableAreaRepair
+[Info   : Unity Log]  Loading key areaRepairRadius
+[Info   : Unity Log] Loading config section Deconstruct
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Inventory
+[Info   : Unity Log]  Loading key inventoryFillTopToBottom
+[Info   : Unity Log]  Loading key playerInventoryRows
+[Info   : Unity Log]  Loading key woodChestColumns
+[Info   : Unity Log]  Loading key woodChestRows
+[Info   : Unity Log]  Loading key personalChestColumns
+[Info   : Unity Log]  Loading key personalChestRows
+[Info   : Unity Log]  Loading key ironChestColumns
+[Info   : Unity Log]  Loading key ironChestRows
+[Info   : Unity Log]  Loading key cartInventoryColumns
+[Info   : Unity Log]  Loading key cartInventoryRows
+[Info   : Unity Log]  Loading key karveInventoryColumns
+[Info   : Unity Log]  Loading key karveInventoryRows
+[Info   : Unity Log]  Loading key longboatInventoryColumns
+[Info   : Unity Log]  Loading key longboatInventoryRows
+[Info   : Unity Log] Loading config section Items
+[Info   : Unity Log]  Loading key noTeleportPrevention
+[Info   : Unity Log]  Loading key baseItemWeightReduction
+[Info   : Unity Log]  Loading key itemStackMultiplier
+[Info   : Unity Log]  Loading key droppedItemOnGroundDurationInSeconds
+[Info   : Unity Log] Loading config section Fermenter
+[Info   : Unity Log]  Loading key fermenterDuration
+[Info   : Unity Log]  Loading key fermenterItemsProduced
+[Info   : Unity Log]  Loading key showDuration
+[Info   : Unity Log] Loading config section FireSource
+[Info   : Unity Log]  Loading key onlyTorches
+[Info   : Unity Log] Loading config section Food
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Smelter
+[Info   : Unity Log]  Loading key maximumOre
+[Info   : Unity Log]  Loading key maximumCoal
+[Info   : Unity Log]  Loading key coalUsedPerProduct
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Furnace
+[Info   : Unity Log]  Loading key maximumOre
+[Info   : Unity Log]  Loading key maximumCoal
+[Info   : Unity Log]  Loading key coalUsedPerProduct
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Hotkeys
+[Info   : Unity Log]  Loading key rollForwards
+[Info   : Unity Log]  Loading key rollBackwards
+[Info   : Unity Log] Loading config section Kiln
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key maximumWood
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Map
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Player
+[Info   : Unity Log]  Loading key baseMaximumWeight
+[Info   : Unity Log]  Loading key baseMegingjordBuff
+[Info   : Unity Log]  Loading key baseAutoPickUpRange
+[Info   : Unity Log]  Loading key disableCameraShake
+[Info   : Unity Log]  Loading key baseUnarmedDamage
+[Info   : Unity Log]  Loading key cropNotifier
+[Info   : Unity Log]  Loading key restSecondsPerComfortLevel
+[Info   : Unity Log]  Loading key deathPenaltyMultiplier
+[Info   : Unity Log]  Loading key autoRepair
+[Info   : Unity Log]  Loading key guardianBuffDuration
+[Info   : Unity Log]  Loading key guardianBuffCooldown
+[Info   : Unity Log] Loading config section Server
+[Info   : Unity Log]  Loading key maxPlayers
+[Info   : Unity Log]  Loading key disableServerPassword
+[Info   : Unity Log]  Loading key enforceMod
+[Info   : Unity Log]  Loading key serverSyncsConfig
+[Info   : Unity Log]  Loading key dataRate
+[Info   : Unity Log] Loading config section Stamina
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StaminaUsage
+[Info   : Unity Log]  Loading key axes
+[Info   : Unity Log]  Loading key bows
+[Info   : Unity Log]  Loading key blocking
+[Info   : Unity Log]  Loading key clubs
+[Info   : Unity Log]  Loading key knives
+[Info   : Unity Log]  Loading key pickaxes
+[Info   : Unity Log]  Loading key polearms
+[Info   : Unity Log]  Loading key spears
+[Info   : Unity Log]  Loading key swords
+[Info   : Unity Log]  Loading key unarmed
+[Info   : Unity Log]  Loading key hammer
+[Info   : Unity Log]  Loading key hoe
+[Info   : Unity Log]  Loading key cultivator
+[Info   : Unity Log] Loading config section Workbench
+[Info   : Unity Log]  Loading key workbenchRange
+[Info   : Unity Log]  Loading key workbenchAttachmentRange
+[Info   : Unity Log]  Loading key disableRoofCheck
+[Info   : Unity Log] Loading config section Time
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Ward
+[Info   : Unity Log]  Loading key wardRange
+[Info   : Unity Log] Loading config section StructuralIntegrity
+[Info   : Unity Log]  Loading key wood
+[Info   : Unity Log]  Loading key stone
+[Info   : Unity Log]  Loading key iron
+[Info   : Unity Log]  Loading key hardWood
+[Info   : Unity Log]  Loading key disableStructuralIntegrity
+[Info   : Unity Log]  Loading key disableDamageToPlayerStructures
+[Info   : Unity Log]  Loading key disableDamageToPlayerBoats
+[Info   : Unity Log] Loading config section Hud
+[Info   : Unity Log]  Loading key showRequiredItems
+[Info   : Unity Log]  Loading key experienceGainedNotifications
+[Info   : Unity Log]  Key chatMessageDistance not defined, using default value
+[Info   : Unity Log]  Loading key displayStaminaValue
+[Info   : Unity Log]  Loading key removeDamageFlash
+[Info   : Unity Log] Loading config section Experience
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Camera
+[Info   : Unity Log]  Loading key cameraMaximumZoomDistance
+[Info   : Unity Log]  Loading key cameraBoatMaximumZoomDistance
+[Info   : Unity Log]  Loading key cameraFOV
+[Info   : Unity Log] Loading config section Game
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Wagon
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Gathering
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Durability
+[Info   : Unity Log]  Loading key axes
+[Info   : Unity Log]  Loading key pickaxes
+[Info   : Unity Log]  Loading key hammer
+[Info   : Unity Log]  Loading key cultivator
+[Info   : Unity Log]  Loading key hoe
+[Info   : Unity Log]  Loading key weapons
+[Info   : Unity Log]  Loading key armor
+[Info   : Unity Log]  Loading key bows
+[Info   : Unity Log]  Loading key shields
+[Info   : Unity Log]  Loading key torch
+[Info   : Unity Log] Loading config section Armor
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FreePlacementRotation
+[Info   : Unity Log]  Loading key rotateY
+[Info   : Unity Log]  Loading key rotateX
+[Info   : Unity Log]  Loading key rotateZ
+[Info   : Unity Log]  Loading key copyRotationParallel
+[Info   : Unity Log]  Loading key copyRotationPerpendicular
+[Info   : Unity Log] Loading config section Shields
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FirstPerson
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GridAlignment
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] 03/19/2021 00:11:50: Successfully synced VPlus configuration from server.
+
+[Info   : Unity Log] 03/19/2021 00:11:50: tip:$loadscreen_tip17
+
+[Info   : Unity Log] 03/19/2021 00:11:52: Game - OnApplicationQuit
+
+[Info   : Unity Log] [VChat] Resetting variables for local player
+[Info   : Unity Log] Loading config section AdvancedBuildingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section AdvancedEditingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Beehive
+[Info   : Unity Log]  Loading key honeyProductionSpeed
+[Info   : Unity Log]  Loading key maximumHoneyPerBeehive
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log]  Loading key showDuration
+[Info   : Unity Log] Loading config section Building
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Deconstruct
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Inventory
+[Info   : Unity Log]  Loading key inventoryFillTopToBottom
+[Info   : Unity Log]  Loading key playerInventoryRows
+[Info   : Unity Log]  Loading key woodChestColumns
+[Info   : Unity Log]  Loading key woodChestRows
+[Info   : Unity Log]  Loading key personalChestColumns
+[Info   : Unity Log]  Loading key personalChestRows
+[Info   : Unity Log]  Loading key ironChestColumns
+[Info   : Unity Log]  Loading key ironChestRows
+[Info   : Unity Log]  Loading key cartInventoryColumns
+[Info   : Unity Log]  Loading key cartInventoryRows
+[Info   : Unity Log]  Loading key karveInventoryColumns
+[Info   : Unity Log]  Loading key karveInventoryRows
+[Info   : Unity Log]  Loading key longboatInventoryColumns
+[Info   : Unity Log]  Loading key longboatInventoryRows
+[Info   : Unity Log] Loading config section Items
+[Info   : Unity Log]  Loading key noTeleportPrevention
+[Info   : Unity Log]  Loading key baseItemWeightReduction
+[Info   : Unity Log]  Loading key itemStackMultiplier
+[Info   : Unity Log]  Loading key droppedItemOnGroundDurationInSeconds
+[Info   : Unity Log] Loading config section Fermenter
+[Info   : Unity Log]  Loading key fermenterDuration
+[Info   : Unity Log]  Loading key fermenterItemsProduced
+[Info   : Unity Log]  Loading key showDuration
+[Info   : Unity Log] Loading config section FireSource
+[Info   : Unity Log]  Loading key onlyTorches
+[Info   : Unity Log] Loading config section Food
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Smelter
+[Info   : Unity Log]  Loading key maximumOre
+[Info   : Unity Log]  Loading key maximumCoal
+[Info   : Unity Log]  Loading key coalUsedPerProduct
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Furnace
+[Info   : Unity Log]  Loading key maximumOre
+[Info   : Unity Log]  Loading key maximumCoal
+[Info   : Unity Log]  Loading key coalUsedPerProduct
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Hotkeys
+[Info   : Unity Log]  Loading key rollForwards
+[Info   : Unity Log]  Loading key rollBackwards
+[Info   : Unity Log] Loading config section Kiln
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key maximumWood
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log] Loading config section Map
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Player
+[Info   : Unity Log]  Loading key baseMaximumWeight
+[Info   : Unity Log]  Loading key baseMegingjordBuff
+[Info   : Unity Log]  Loading key baseAutoPickUpRange
+[Info   : Unity Log]  Loading key disableCameraShake
+[Info   : Unity Log]  Loading key baseUnarmedDamage
+[Info   : Unity Log]  Loading key cropNotifier
+[Info   : Unity Log]  Loading key restSecondsPerComfortLevel
+[Info   : Unity Log]  Loading key deathPenaltyMultiplier
+[Info   : Unity Log]  Loading key autoRepair
+[Info   : Unity Log]  Loading key guardianBuffDuration
+[Info   : Unity Log]  Loading key guardianBuffCooldown
+[Info   : Unity Log] Loading config section Server
+[Info   : Unity Log]  Loading key maxPlayers
+[Info   : Unity Log]  Loading key disableServerPassword
+[Info   : Unity Log]  Loading key enforceMod
+[Info   : Unity Log]  Loading key serverSyncsConfig
+[Info   : Unity Log]  Loading key dataRate
+[Info   : Unity Log] Loading config section Stamina
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StaminaUsage
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Workbench
+[Info   : Unity Log]  Loading key workbenchRange
+[Info   : Unity Log]  Loading key workbenchAttachmentRange
+[Info   : Unity Log]  Loading key disableRoofCheck
+[Info   : Unity Log] Loading config section Time
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Ward
+[Info   : Unity Log]  Loading key wardRange
+[Info   : Unity Log] Loading config section StructuralIntegrity
+[Info   : Unity Log]  Loading key wood
+[Info   : Unity Log]  Loading key stone
+[Info   : Unity Log]  Loading key iron
+[Info   : Unity Log]  Loading key hardWood
+[Info   : Unity Log]  Loading key disableStructuralIntegrity
+[Info   : Unity Log]  Loading key disableDamageToPlayerStructures
+[Info   : Unity Log]  Loading key disableDamageToPlayerBoats
+[Info   : Unity Log] Loading config section Hud
+[Info   : Unity Log]  Loading key showRequiredItems
+[Info   : Unity Log]  Loading key experienceGainedNotifications
+[Info   : Unity Log]  Key chatMessageDistance not defined, using default value
+[Info   : Unity Log]  Loading key displayStaminaValue
+[Info   : Unity Log]  Loading key removeDamageFlash
+[Info   : Unity Log] Loading config section Experience
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Camera
+[Info   : Unity Log]  Loading key cameraMaximumZoomDistance
+[Info   : Unity Log]  Loading key cameraBoatMaximumZoomDistance
+[Info   : Unity Log]  Loading key cameraFOV
+[Info   : Unity Log] Loading config section Game
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Wagon
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Gathering
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Durability
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Armor
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FreePlacementRotation
+[Info   : Unity Log]  Loading key rotateY
+[Info   : Unity Log]  Loading key rotateX
+[Info   : Unity Log]  Loading key rotateZ
+[Info   : Unity Log]  Loading key copyRotationParallel
+[Info   : Unity Log]  Loading key copyRotationPerpendicular
+[Info   : Unity Log] Loading config section Shields
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FirstPerson
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GridAlignment
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] 03/19/2021 00:11:53: ZNet Shutdown
+
+[Info   : Unity Log] 03/19/2021 00:11:53: Flushed 0 objects
+
+[Info   : Unity Log] 03/19/2021 00:11:53: Sending disconnect msg
+
+[Info   : Unity Log] 03/19/2021 00:11:53: Sent to 90144204507225098
+
+[Info   : Unity Log] 03/19/2021 00:11:53: Released session ticket
+
+[Info   : Unity Log] [VChat] Unregistered server, resetting variables.
+[Info   : Unity Log] 03/19/2021 00:11:53: Disposing socket
+
+[Info   : Unity Log] 03/19/2021 00:11:53: Closing socket 90144204507225098
+
+[Info   : Unity Log] 03/19/2021 00:11:53:   send queue size:0
+
+[Info   : Unity Log] 03/19/2021 00:11:53: Last socket, unregistering callback
+
+[Info   : Unity Log] 03/19/2021 00:11:53: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+
+[Info   : Unity Log] 03/19/2021 00:11:53: Disposing socket
+
+[Info   : Unity Log] 03/19/2021 00:11:53: Last socket, unregistering callback
+
+[Info   : Unity Log] 03/19/2021 00:11:53: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+
