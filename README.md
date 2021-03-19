@@ -5,6 +5,22 @@ The following files will allow you to connect to the HackShardGaming Valheim Plu
 
 Patch Notes
 
+
+HsG V0.9.0.2	Date: 3/18/2021		Valheim Version: 0.147.3 (VOnline v0.1)@0.9.5.5
+>>	Removed Weyland Mod
+>>	Readded ServerSideMap Plugin
+>>	Updated a few more base plugins
+>>	Did some cleaning up of old files and folders.
+>>	Resolved a bug with ValheimPlus's Version Number. Also manually updated to there latest github release.
+>>	Complete overhall of plugins folder.
+
+HsG V0.9.0.1	Date: 3/18/2021		Valheim Version: 0.147.3(VOnline v0.1)@0.9.5.5/WeylandMod-1.10
+>>	Updated Plugin: Epic Loot
+>>	Updated Plugin: Valheim Plus
+>>	Updated Plugin: Hold Attack
+>>	Removed Plugin ValheimHostnameConnect (PLEASE DELETE FROM YOUR FOLDER)
+>>	Added Plugin: Pin Filters (as per request)
+
 HsG V0.9.0.0	Date: 3/16/2021		Valheim Version: 0.147.3 (VOnline v0.1)@0.9.5.5/WeylandMod-1.10
 >>	Installed Plugin: Weyland Mod Core
 >>	Installed Plugin: Weyland Mod Item Radar
