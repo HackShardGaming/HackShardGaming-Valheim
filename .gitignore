@@ -5,3 +5,5 @@ Unity*
 steam_appid*
 /valheim_Data
 /MonoBleedingEdge
+/BepInEx/LogOutput.log
+/BepInEx/cache
