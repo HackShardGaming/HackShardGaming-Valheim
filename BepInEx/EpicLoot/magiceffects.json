@@ -7,7 +7,6 @@
       "Requirements" : {
         "NoRoll": true
       },
-      "SelectionWeight" : 1,
       "Comment" : "Can't be rolled. Just added to make a Magic Item version of this item."
     },
     {
@@ -17,7 +16,6 @@
       "Requirements" : {
         "NoRoll": true
       },
-      "SelectionWeight" : 1,
       "Comment" : "Can't be rolled. Just added to make a Magic Item version of this item."
     },
     {
@@ -27,7 +25,15 @@
       "Requirements" : {
         "NoRoll": true
       },
-      "SelectionWeight" : 1,
+      "Comment" : "Can't be rolled. Just added to make a Magic Item version of this item."
+    },
+    {
+      "Type": "Andvaranaut",
+      "DisplayText": "Finds Haldor's treasure chests",
+      "CanBeAugmented": false, 
+      "Requirements" : {
+        "NoRoll": true
+      },
       "Comment" : "Can't be rolled. Just added to make a Magic Item version of this item."
     },
     {
@@ -87,6 +93,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ],
         "ItemHasElementalDamage" : true
       },
@@ -201,6 +210,9 @@
         "AllowedItemTypes" : [
           "Shield"
         ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ],
         "ItemHasBlockPower" : true
       },
       "ValuesPerRarity" : {
@@ -220,6 +232,9 @@
         "AllowedItemTypes" : [
           "Shield",
           "TwoHandedWeapon"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ],
         "ItemHasParryPower" : true
       },
@@ -386,6 +401,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -417,6 +435,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -479,6 +500,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -510,6 +534,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -541,6 +568,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -572,6 +602,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -603,6 +636,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -875,6 +911,108 @@
       "SelectionWeight" : 1,
       "Prefixes": [ "Pocketed" ],
       "Suffixes": [ "Pockets" ]
+    },
+    {
+      "Type" : "LifeSteal",
+      "DisplayText" : "Heal for {0:0.0}% of damage done",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ],
+        "AllowedRarities" : [
+          "Rare",
+          "Epic",
+          "Legendary"
+        ],
+        "ItemUsesStaminaOnAttack" : true
+      },
+      "ValuesPerRarity" : {
+        "Rare" : { "MinValue" : 0.8, "MaxValue" : 1.4, "Increment" : 0.1 },
+        "Epic" : { "MinValue" : 1.5, "MaxValue" : 2.2, "Increment" : 0.1 },
+        "Legendary" : { "MinValue" : 2.3, "MaxValue" : 3, "Increment" : 0.1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Valravn's" ],
+      "Suffixes": [ "Valravn" ]
+    },
+    {
+      "Type" : "ModifyAttackSpeed",
+      "DisplayText" : "Attack speed increased by +{0:0.#}%",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow",
+          "Tool"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
+        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Striker's" ],
+      "Suffixes": [ "Striking" ]
+    },
+    {
+      "Type" : "Throwable",
+      "DisplayText" : "Throwable",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes",
+          "Spears"
+        ]
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Throwing" ],
+      "Suffixes": [ "Throwing" ]
+    },
+    {
+      "Type" : "Waterproof",
+      "DisplayText" : "Waterproof",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "Shoulder"
+        ]
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Waterproof" ],
+      "Suffixes": [ "Water-repelling" ]
+    },
+    {
+      "Type" : "Paralyze",
+      "DisplayText" : "Paralyze for {0:0.#} seconds",
+      "Requirements" : {
+        "NoRoll": true,
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 0.5, "MaxValue" : 2, "Increment" : 0.5 },
+        "Rare" : { "MinValue" : 1, "MaxValue" : 2.5, "Increment" : 0.5 },
+        "Epic" : { "MinValue" : 1.5, "MaxValue" : 3, "Increment" : 0.5 },
+        "Legendary" : { "MinValue" : 2, "MaxValue" : 4, "Increment" : 0.5 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Paralyzing" ],
+      "Suffixes": [ "Paralysis" ]
     }
   ]
 }
